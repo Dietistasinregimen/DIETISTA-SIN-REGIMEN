@@ -1,0 +1,123 @@
+
+/* La css que hemos aplicado para el <body> de nuestra página son: un ancho a todo el contenido de
+ la página de mil píxeles, un margen de cero en la parte superior e inferior de la página y 
+ automático a izquierda y derecha, una fuente de texto de la familia Century Gothic con un tamaño de 
+ 16 píxeles y un color de fondo blanco. */
+body { 
+width: 1000px; 
+margin: 0 auto;
+font-family: Century Gothic;
+font-size: 16px;
+background: #FFFFFF;
+} 
+/* Las css que hemos aplicado para todos los elementos de <a> han sido: indicar que no tenga decoración,
+ y así evitar el subrayado, y un tono verde. */
+a { 
+text-decoration: none;
+color: #7bb661;
+ }
+/*Para el elemento <nav> hemos aplicado los márgenes que se exponen debajo.*/
+ nav li{
+   margin: 20px 20px 20px 10px;
+}
+/* Las css que hemos aplicado a los elementos de <nav li a> han sido: las medidas en píxeles del espacio de relleno,
+un color blanco para las letras, un color verde para el fondo, el grosor de los bordes en píxeles, su estilo (double)
+y color verdoso, y el formato de texto sin representar.*/ 
+nav li a {
+   padding: 2px 7px 2px 7px;
+   color: #FFFFFF;
+   background-color: #7bb661;
+   border: 8px double #C5F465;
+   text-decoration: none;
+}
+/* Las css para el hover del elemento <nav> que hemos aplicado han sido: un color de fondo verde y unas letras blancas. */
+nav li a:hover{
+   background-color: #9ACD32;
+   color: white;
+}
+ /* Las css que hemos aplicado para todos los elementos de <hr> han sido: indicar que tenga un
+ márgen de 25 píxeles en la parte superior e inferior y un margen de cero a izquierda y derecha. */
+ hr { 
+ margin: 25px 0;
+ }
+ /* Las css que hemos aplicado para el elemento con id "wrapper" han sido: indicarle que tenga un 
+ color de fondo verde y un relleno en su lado izquierdo de 20 píxeles. */
+#wrapper {
+	 background: #8ADDA7;
+	 padding-left: 20px;
+}
+/* Las css que hemos aplicado para el elemento <header> han sido: un tamaño de letra de 23 píxeles, un borde con grosor de 2 píxeles y color verde azulado, indicarle que tenga una altura de 3 píxeles, un relleno superior de 5 píxeles, un espacio entre el posible texto y el contenido de 10 píxeles, el texto con alineamiento centrado, una fuente de texto de la familia fantasy, un color de texto verde claro, un color de fondo azulado del rectángulo superior y las propiedades del borde del mismo */
+header {
+	font-size: 23px;
+	-webkit-text-stroke: 2px black;
+    color: transparent; 
+	height: 3px;
+	padding-top:5px;
+	padding: 10px;
+	text-align: center;
+	font-family: FANTASY;
+	color: #7bb661;
+   background-color: #7bb661;
+   border: 8px double #C5F465;
+}
+/* Las css que hemos aplicado para el elemento con <p> que esta dentro de un <footer> han sido: 
+indicarle que disponga su contenido en línea y que tenga un margen en todos sus lados de 10 píxeles. */
+footer p {
+	display: inline-block;
+	margin: 10px;
+}
+/* Las css que hemos aplicado para el elemento <footer> han sido: indicarle un espacio entre el texto y el contenido de 1 píxeles,
+que utilice un color de letras blanco y un color de fondo verde, y las propiedades del borde del rectángulo. */
+footer {
+	padding: 1px;
+	color: black;
+	background-color: #7bb661;
+   border: 8px double #C5F465;
+}
+/* Las css que hemos aplicado para todos los elementos de <p> cuyo padre es el elemento <section> han sido: 
+indicarle que todo su texto sea alineado a la izquierda. */
+section > p {
+	text-align: left;
+}
+
+/* Las css que hemos aplicado para el último elemento <p> dentro del elemento <article> han sido:
+ indicarle que su texto se alinee al centro y su tamaño de fuente sea del 90% con respecto al <body>. */
+article p: last-child {
+	text-align: center;
+	font-size: 90%;
+}
+}
+/* Las css que hemos aplicado para el elemento <aside> han sido:
+ indicarle que su margen derecho sea de 30 píxeles. */
+section aside: first-child {
+	margin-right: 30px;
+}
+/* Las css que hemos aplicado para los elementos que utilicen la clase secciones-aside han sido: indicarle que su contenido será 
+dispuesto en línea flexible, que su texto será alineado a la izquierda, que el margen será de 50 píxeles 
+en la parte superior e inferior y que su ancho será del 90%. */
+.secciones-asides {
+	display: inline-flex;
+	text-align: left;
+	margin: 50px;
+	width: 90%;
+}
+/* Las css que hemos utilizado para el elemento <table> son las siguientes: un color de letra negro
+con un fondo verde más oscuro y el texto alineado a la izquierda con un espacio de relleno de 20 píxeles, y las propiedades del borde de la tabla.*/
+table{
+color: black;
+background-color: #7bb661;
+text-align: left;
+padding: 20px;
+border: 8px double #C5F465;
+}	
+/* Las css que hemos aplicado para el elemento <td> son las siguientes: un tamaño de letra de 15 píxeles,
+una altura de la casilla de 20 píxeles, texto justificado, un alineado vertical de tipo top y una anchura 
+del contenido del 50%. */
+td {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    vertical-align: top;
+    width: 50%;
+}
+ 
